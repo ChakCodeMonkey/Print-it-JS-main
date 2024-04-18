@@ -55,7 +55,7 @@ function displaySlide(index) {
     console.log(index);
     console.log(slides.length)
     taglineContainer.innerHTML = slides[index].tagLine;
-    bannerImg.src = `assets/images/slideshow/${slides[index].image}`;
+    bannerImg.src = `assets/images/slideshow/${slides[currentIndex].image}`;
 
     const dots = document.querySelectorAll('.dot');
 
